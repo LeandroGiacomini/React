@@ -15,14 +15,15 @@ const Page = styled.div`
 
 const Container = styled.div`
 
-    height: 50%;
+    height: 100%;
     width: 25%;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-top;
     align-items: center;
     
-    border-radius: 3rem;
+    /*border-radius: 3rem;*/
 
     box-shadow: 3px 9px 18px -4px rgba(0,0,0,0.85);
 
